@@ -4,6 +4,8 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	alert("ok");
+	var nombre = prompt('Escribe tu nombre')
+	var nombre = nombre[0].toUpperCase() + nombre.slice(1)
+	txtIdNombre.value = nombre
 }
 
