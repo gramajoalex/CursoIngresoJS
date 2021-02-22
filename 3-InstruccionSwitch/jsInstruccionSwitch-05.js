@@ -1,7 +1,7 @@
 function mostrar()
 {
 	//tomo la hora
-	var horaDelDia =txtIdHora.value
+	let horaDelDia =document.getElementById('txtIdHora').value
 	
 	switch (horaDelDia) {
 		case '7':
